@@ -95,13 +95,6 @@ export default function LoginPage() {
             </button>
           </form>
         </div>
-
-        {/* Test credentials hint */}
-        <div className="mt-4 p-4 rounded-xl bg-white/[0.03] border border-white/[0.06]">
-          <p className="text-xs text-zinc-500 font-mono text-center">
-            Test: <span className="text-zinc-300">admin@taskmanager.com</span> / <span className="text-zinc-300">Admin1234!</span>
-          </p>
-        </div>
       </div>
     </div>
   );
